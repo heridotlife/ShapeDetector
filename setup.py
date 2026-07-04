@@ -11,10 +11,11 @@ setup(
     description='Shape Detector API',
     keywords=['shape', 'detector', 'flask'],
     install_requires=[
-        'flask>=0.10.1',
+        'flask>=2.3',
+        'flask-restx>=1.3',
     ],
     classifiers=[
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.6'
+        'Programming Language :: Python :: 3.13'
     ]
 )

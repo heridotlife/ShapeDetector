@@ -1,6 +1,6 @@
-FROM python:3.6.9
+FROM python:3.13-slim
 
-MAINTAINER Heri Rusmanto "hvedaid@gmail.com"
+LABEL maintainer="Heri Rusmanto <hvedaid@gmail.com>"
 
 # Set working directory
 RUN mkdir -p /var/www/shape_detector
