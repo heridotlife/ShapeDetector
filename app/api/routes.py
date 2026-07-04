@@ -3,7 +3,7 @@ import json
 
 from flask import request
 from flask import current_app as app
-from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 
 from app.shape import build_shape
 
